@@ -1,0 +1,127 @@
+/*======== defaults starts =========*/
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+img{
+    vertical-align: middle;
+}
+ul, li{
+    list-style: none;
+}
+.container{
+    width: 1290px;
+    margin: 0 auto;
+}
+.fonts--family{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Philosopher', sans-serif;
+}
+
+/*======== defaults end =========*/
+/*======== navbar starts =========*/
+.navbar{
+    width: 100%;
+}
+
+.nav__logo{
+    width: 20%;
+}
+
+.nav__items{
+    display: flex;
+    align-items: center;
+    padding: 30px 0 26px 0;
+}
+
+.nav__innerItems{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__list{
+    width: 60%;
+}
+
+.nav__list .nav__linkList{
+    display: flex;
+}
+
+.nav__list .nav__linkList li{
+    padding-right: 36px;
+}
+
+.nav__list .nav__linkList li a {
+    color: #162C53;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: 'Inter', sans-serif;
+}
+
+.contact{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+.contact .login{
+    color: #162C53;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: 'Inter', sans-serif;
+    padding: 18px 24px ;
+    background: #fff;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    margin-left: 40px;
+}
+.contact .login:hover{
+    background: #CABB78;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+/*======== navbar end =========*/
+/*======== banner starts =========*/
+.banner{
+   padding:0 36px;
+}
+.banner_background{
+    background-image: url('/images/BG.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 300px 36px 300px 36px;
+    width: 100%;
+}
+/*======== banner end =========*/
+/*======== dream job starts =========*/
+/*======== dream job end =========*/
+/*======== eimams starts =========*/
+/*======== eimams end =========*/
+/*======== top employers starts =========*/
+/*======== top employers end =========*/
+/*======== signup starts =========*/
+/*======== signup end =========*/
+/*======== vedio starts =========*/
+/*======== vedio end =========*/
+/*======== subscribe starts =========*/
+/*======== subscribe end =========*/
+/*======== footer starts =========*/
+/*======== footer end =========*/
+/*======== copyrights starts =========*/
+/*======== copyrights end =========*/
