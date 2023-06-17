@@ -67,12 +67,12 @@ ul, li{
     font-family: 'Inter', sans-serif;
 }
 
-.contact{
+.nav__contact{
     width: 40%;
     display: flex;
     justify-content: flex-end;
 }
-.contact .login{
+.nav__contact .nav__login{
     color: #162C53;
     font-size: 16px;
     font-weight: 500;
@@ -87,7 +87,7 @@ ul, li{
     -o-border-radius: 100px;
     margin-left: 40px;
 }
-.contact .login:hover{
+.nav__contact .nav__login:hover{
     background: #CABB78;
     transition: 0.4s;
     -webkit-transition: 0.4s;
@@ -101,21 +101,388 @@ ul, li{
 .banner{
    padding:0 36px;
 }
+
 .banner_background{
     background-image: url('/images/BG.png');
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 300px 36px 300px 36px;
     width: 100%;
+    border-radius: 24px 24px 0px 0px;
+    -webkit-border-radius: 24px 24px 0px 0px;
+    -moz-border-radius: 24px 24px 0px 0px;
+    -ms-border-radius: 24px 24px 0px 0px;
+    -o-border-radius: 24px 24px 0px 0px;
 }
+
+.banner__contents{
+    width: 592px;
+    padding: 170px 0px 169px 0px;
+}
+
+.banner__contents h2{
+    color: #fff ;
+    font-size: 76px;
+    font-weight: 700;
+    line-height: 86px;
+    text-transform: capitalize;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.banner__contents h2 span{
+    color: #CABB78;
+}
+
+.banner__contents p{
+    color: rgb(255, 255, 255, 0.6);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25.2px;
+    font-family: 'Inter', sans-serif;
+    padding: 20px 0 48px 0 ;
+}
+
+.banner__contents .banner__contentsButtons{
+    display: flex;
+}
+
+.banner__contents .banner__contentsButtons .banner_signup{
+    background: #fff;
+    padding: 18px 24px;
+    margin-right: 16px;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+
+.banner__contents .banner__contentsButtons .banner_signup:hover{
+    background: #CABB78;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+.banner__contents .banner__contentsButtons .banner_signup a{
+    color: #162C53 ;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+}
+
+.banner__contents .banner__contentsButtons .banner_signup i{
+    color: #162C53;
+    padding-right: 8px;
+}
+
 /*======== banner end =========*/
-/*======== dream job starts =========*/
-/*======== dream job end =========*/
+/*======== searcing starts =========*/
+
+.searcing{
+    padding: 0 36px;
+}
+
+.searcing__background{
+    background-image: url('/images/searcingbg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px 36px 0px 36px;
+    width: 100%;
+    border-radius: 0px 0px 24px 24px;
+    -webkit-border-radius: 0px 0px 24px 24px;
+    -moz-border-radius: 0px 0px 24px 24px;
+    -ms-border-radius: 0px 0px 24px 24px;
+    -o-border-radius: 0px 0px 24px 24px;
+}
+
+.searching_contents{
+    padding: 64px 0;
+}
+
+.searching_item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searching_item h3{
+    color: #162C53 ;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 86px;
+    text-transform: capitalize;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.searching_item p , .searcing__innertexts p{
+    color: #162C53;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+}
+
+.searcing__innerContentsItems{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.searcing__innercontents{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 18px 24px;
+    margin:16px 16px 16px 0;
+    background: #fff;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    width: 235px;
+    /* width depends how i needed, we can use paddings for different items but for time saving we are using width */
+}
+
+.searcing__innercontents:nth-child(1){
+    margin-left: 0px;
+}
+
+.searcing__innertexts{
+    display: flex;
+    justify-content: space-between;
+}
+
+.searcing__innertexts i{
+    margin-right: 8px;
+    font-size: 18px;
+}
+
+.searcing__button .searcing__button_Link{
+    color: #162C53;
+    font-size: 18px;
+    font-weight: 500; 
+    font-family: 'Inter', sans-serif;
+    text-transform: capitalize;
+    padding: 18px 90px;
+    margin:16px 16px 16px 0;
+    background: #fff;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px; 
+}
+
+.searcing__button .searcing__button_Link:hover{
+    color: #CABB78;
+    background: #162C53;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+/*======== searcing end =========*/
 /*======== eimams starts =========*/
+.eimams{
+    padding: 127px 0 113px 0;
+}
+
+.eimams__items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.eimams__images{
+    width: 40%;
+}
+
+.eimams__images .eimams__imgItems {
+    width: 458px;
+    height: 452px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: relative;
+}
+
+.eimams__imgItems--jobsbg{
+    width: 130px;
+    height: 130px;
+    background: #fff;
+    content: '';
+    position: absolute;
+    bottom:0 ;
+    left: 0;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.eimams__imgItemsJobs{
+    width: 108px;
+    height: 108px;
+    padding: 10px;
+    background: #CABB78;
+    text-align: center;
+    content: '';
+    position: absolute;
+    bottom:0 ;
+    left: 0;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transform:translate(10%, -10%);
+    -webkit-transform:translate(10%, -10%);
+    -moz-transform:translate(10%, -10%);
+    -ms-transform:translate(10%, -10%);
+    -o-transform:translate(10%, -10%);
+}
+
+.eimams__imgItemsJobs p{
+    color: #162C53 ;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: 'Philosopher', sans-serif;
+  
+}
+
+.eimams__imgItemsJobs span{
+    color: #162C53;
+    font-size: 18px;
+    font-weight: 500; 
+    font-family: 'Inter', sans-serif;
+}
+
+.eimams__contents{
+    width: 60%;
+}
+
+.eimams__contents h2{
+    color: #162C53 ;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 83.2px;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.eimams__contents p{
+    color: #162C53;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    padding: 28px 0 36px 0;
+}
+
+.eimams__buttons a{
+    color: #162C53;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    padding: 18px 24px;
+    background: #CABB78;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+
+.eimams__buttons i{
+    margin-left: 8px;
+}
 /*======== eimams end =========*/
 /*======== top employers starts =========*/
 /*======== top employers end =========*/
 /*======== signup starts =========*/
+.signup_contents{
+    display: flex;
+    justify-content: space-between;
+}
+
+.signUp__inner{
+    width: 48%;
+    background: #162C53;
+    border-radius:21.47px ;
+    -webkit-border-radius:21.47px ;
+    -moz-border-radius:21.47px ;
+    -ms-border-radius:21.47px ;
+    -o-border-radius:21.47px ;
+}
+
+.sigup_text{
+    padding: 89px 56px;
+}
+
+.sigup_text h2{
+    color: #fff ;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 83.2px;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.sigup_text p{
+    color: rgb(255, 255, 255, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    padding: 20px 0 36px 0;
+    
+}
+
+.signup__button a{
+    color: #162C53;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    padding: 18px 24px;
+    background: #CABB78;
+    border-radius: 100px ;
+    -webkit-border-radius: 100px ;
+    -moz-border-radius: 100px ;
+    -ms-border-radius: 100px ;
+    -o-border-radius: 100px ;
+}
+
+.signup__button a i{
+    margin-right: 8px;
+}
+
+.signUp__inner:hover{
+    background: #CABB78;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+.signUp__inner:hover .sigup_text h2{
+    color: #162C53;
+}
+
+.signUp__inner:hover .sigup_text p{
+    color: #162C53;
+}
+
+.signUp__inner:hover .signup__button a{
+    background: #fff;
+    color: #162C53;
+}
 /*======== signup end =========*/
 /*======== vedio starts =========*/
 /*======== vedio end =========*/
