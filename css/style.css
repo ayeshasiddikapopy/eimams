@@ -1,61 +1,61 @@
 /*======== defaults starts =========*/
-*{
+* {
     margin: 0;
     padding: 0;
     outline: none;
     box-sizing: border-box;
 }
-a{
+a {
     display: inline-block;
     text-decoration: none;
 }
-img{
+img {
     vertical-align: middle;
 }
-ul, li{
+ul, li {
     list-style: none;
 }
-.container{
+.container {
     width: 1290px;
     margin: 0 auto;
 }
-.fonts--family{
+.fonts--family {
     font-family: 'Inter', sans-serif;
     font-family: 'Philosopher', sans-serif;
 }
 
 /*======== defaults end =========*/
 /*======== navbar starts =========*/
-.navbar{
+.navbar {
     width: 100%;
 }
 
-.nav__logo{
+.nav__logo {
     width: 20%;
 }
 
-.nav__items{
+.nav__items {
     display: flex;
     align-items: center;
     padding: 30px 0 26px 0;
 }
 
-.nav__innerItems{
+.nav__innerItems {
     width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.nav__list{
+.nav__list {
     width: 60%;
 }
 
-.nav__list .nav__linkList{
+.nav__list .nav__linkList {
     display: flex;
 }
 
-.nav__list .nav__linkList li{
+.nav__list .nav__linkList li {
     padding-right: 36px;
 }
 
@@ -67,12 +67,12 @@ ul, li{
     font-family: 'Inter', sans-serif;
 }
 
-.nav__contact{
+.nav__contact {
     width: 40%;
     display: flex;
     justify-content: flex-end;
 }
-.nav__contact .nav__login{
+.nav__contact .nav__login {
     color: #162C53;
     font-size: 16px;
     font-weight: 500;
@@ -87,7 +87,7 @@ ul, li{
     -o-border-radius: 100px;
     margin-left: 40px;
 }
-.nav__contact .nav__login:hover{
+.nav__contact .nav__login:hover {
     background: #CABB78;
     transition: 0.4s;
     -webkit-transition: 0.4s;
@@ -98,11 +98,11 @@ ul, li{
 
 /*======== navbar end =========*/
 /*======== banner starts =========*/
-.banner{
+.banner {
    padding:0 36px;
 }
 
-.banner_background{
+.banner_background {
     background-image: url('/images/BG.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -114,12 +114,12 @@ ul, li{
     -o-border-radius: 24px 24px 0px 0px;
 }
 
-.banner__contents{
+.banner__contents {
     width: 592px;
     padding: 170px 0px 169px 0px;
 }
 
-.banner__contents h2{
+.banner__contents h2 {
     color: #fff ;
     font-size: 76px;
     font-weight: 700;
@@ -128,11 +128,11 @@ ul, li{
     font-family: 'Philosopher', sans-serif;
 }
 
-.banner__contents h2 span{
+.banner__contents h2 span {
     color: #CABB78;
 }
 
-.banner__contents p{
+.banner__contents p {
     color: rgb(255, 255, 255, 0.6);
     font-size: 18px;
     font-weight: 400;
@@ -141,11 +141,11 @@ ul, li{
     padding: 20px 0 48px 0 ;
 }
 
-.banner__contents .banner__contentsButtons{
+.banner__contents .banner__contentsButtons {
     display: flex;
 }
 
-.banner__contents .banner__contentsButtons .banner_signup{
+.banner__contents .banner__contentsButtons .banner_signup {
     background: #fff;
     padding: 18px 24px;
     margin-right: 16px;
@@ -156,7 +156,7 @@ ul, li{
     -o-border-radius: 100px;
 }
 
-.banner__contents .banner__contentsButtons .banner_signup:hover{
+.banner__contents .banner__contentsButtons .banner_signup:hover {
     background: #CABB78;
     transition: 0.4s;
     -webkit-transition: 0.4s;
@@ -165,14 +165,14 @@ ul, li{
     -o-transition: 0.4s;
 }
 
-.banner__contents .banner__contentsButtons .banner_signup a{
+.banner__contents .banner__contentsButtons .banner_signup a {
     color: #162C53 ;
     font-size: 18px;
     font-weight: 600;
     font-family: 'Inter', sans-serif;
 }
 
-.banner__contents .banner__contentsButtons .banner_signup i{
+.banner__contents .banner__contentsButtons .banner_signup i {
     color: #162C53;
     padding-right: 8px;
 }
@@ -180,11 +180,11 @@ ul, li{
 /*======== banner end =========*/
 /*======== searcing starts =========*/
 
-.searcing{
+.searcing {
     padding: 0 36px;
 }
 
-.searcing__background{
+.searcing__background {
     background-image: url('/images/searcingbg.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -197,17 +197,17 @@ ul, li{
     -o-border-radius: 0px 0px 24px 24px;
 }
 
-.searching_contents{
+.searching_contents {
     padding: 64px 0;
 }
 
-.searching_item{
+.searching_item {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.searching_item h3{
+.searching_item h3 {
     color: #162C53 ;
     font-size: 36px;
     font-weight: 700;
@@ -216,21 +216,21 @@ ul, li{
     font-family: 'Philosopher', sans-serif;
 }
 
-.searching_item p , .searcing__innertexts p{
+.searching_item p , .searcing__innertexts p {
     color: #162C53;
     font-size: 16px;
     font-weight: 400;
     font-family: 'Inter', sans-serif;
 }
 
-.searcing__innerContentsItems{
+.searcing__innerContentsItems {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.searcing__innercontents{
+.searcing__innercontents {
     display: flex;
     align-items: center;
     flex-wrap: nowrap;
@@ -247,21 +247,21 @@ ul, li{
     /* width depends how i needed, we can use paddings for different items but for time saving we are using width */
 }
 
-.searcing__innercontents:nth-child(1){
+.searcing__innercontents:nth-child(1) {
     margin-left: 0px;
 }
 
-.searcing__innertexts{
+.searcing__innertexts {
     display: flex;
     justify-content: space-between;
 }
 
-.searcing__innertexts i{
+.searcing__innertexts i {
     margin-right: 8px;
     font-size: 18px;
 }
 
-.searcing__button .searcing__button_Link{
+.searcing__button .searcing__button_Link {
     color: #162C53;
     font-size: 18px;
     font-weight: 500; 
@@ -277,7 +277,7 @@ ul, li{
     -o-border-radius: 100px; 
 }
 
-.searcing__button .searcing__button_Link:hover{
+.searcing__button .searcing__button_Link:hover {
     color: #CABB78;
     background: #162C53;
     transition: 0.4s;
@@ -289,17 +289,17 @@ ul, li{
 
 /*======== searcing end =========*/
 /*======== eimams starts =========*/
-.eimams{
+.eimams {
     padding: 127px 0 113px 0;
 }
 
-.eimams__items{
+.eimams__items {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.eimams__images{
+.eimams__images {
     width: 40%;
 }
 
@@ -314,7 +314,7 @@ ul, li{
     position: relative;
 }
 
-.eimams__imgItems--jobsbg{
+.eimams__imgItems--jobsbg {
     width: 130px;
     height: 130px;
     background: #fff;
@@ -329,7 +329,7 @@ ul, li{
     -o-border-radius: 50%;
 }
 
-.eimams__imgItemsJobs{
+.eimams__imgItemsJobs {
     width: 108px;
     height: 108px;
     padding: 10px;
@@ -351,7 +351,7 @@ ul, li{
     -o-transform:translate(10%, -10%);
 }
 
-.eimams__imgItemsJobs p{
+.eimams__imgItemsJobs p {
     color: #162C53 ;
     font-size: 36px;
     font-weight: 700;
@@ -360,18 +360,18 @@ ul, li{
   
 }
 
-.eimams__imgItemsJobs span{
+.eimams__imgItemsJobs span {
     color: #162C53;
     font-size: 18px;
     font-weight: 500; 
     font-family: 'Inter', sans-serif;
 }
 
-.eimams__contents{
+.eimams__contents {
     width: 60%;
 }
 
-.eimams__contents h2{
+.eimams__contents h2 {
     color: #162C53 ;
     font-size: 64px;
     font-weight: 700;
@@ -379,7 +379,7 @@ ul, li{
     font-family: 'Philosopher', sans-serif;
 }
 
-.eimams__contents p{
+.eimams__contents p {
     color: #162C53;
     font-size: 16px;
     font-weight: 400;
@@ -387,7 +387,7 @@ ul, li{
     padding: 28px 0 36px 0;
 }
 
-.eimams__buttons a{
+.eimams__buttons a {
     color: #162C53;
     font-size: 18px;
     font-weight: 600;
@@ -401,7 +401,7 @@ ul, li{
     -o-border-radius: 100px;
 }
 
-.eimams__buttons i{
+.eimams__buttons i {
     margin-left: 8px;
 }
 /*======== eimams end =========*/
@@ -467,12 +467,12 @@ ul, li{
     padding-top: 36px;
 }
 
-.employes_partnerImg{
+.employes_partnerImg {
     text-align: center;
     margin:  0px 30px;
 }
 
-.employes_partnerImg:nth-child(1){
+.employes_partnerImg:nth-child(1) {
     margin-left: 0px;
 }
 
@@ -482,7 +482,7 @@ ul, li{
     background: #fff;
 }
 
-.employes_partnerImg p{
+.employes_partnerImg p {
     color: #162C53 ;
     font-size: 20px;
     font-weight: 700;
@@ -493,12 +493,12 @@ ul, li{
 
 /*======== employers end =========*/
 /*======== signup starts =========*/
-.signup_contents{
+.signup_contents {
     display: flex;
     justify-content: space-between;
 }
 
-.signUp__inner{
+.signUp__inner {
     width: 48%;
     background: #162C53;
     border-radius:21.47px ;
@@ -508,11 +508,11 @@ ul, li{
     -o-border-radius:21.47px ;
 }
 
-.sigup_text{
+.sigup_text {
     padding: 89px 56px;
 }
 
-.sigup_text h2{
+.sigup_text h2 {
     color: #fff ;
     font-size: 36px;
     font-weight: 700;
@@ -520,7 +520,7 @@ ul, li{
     font-family: 'Philosopher', sans-serif;
 }
 
-.sigup_text p{
+.sigup_text p {
     color: rgb(255, 255, 255, 0.6);
     font-size: 16px;
     font-weight: 400;
@@ -529,7 +529,7 @@ ul, li{
     
 }
 
-.signup__button a{
+.signup__button a {
     color: #162C53;
     font-size: 16px;
     font-weight: 400;
@@ -543,11 +543,11 @@ ul, li{
     -o-border-radius: 100px ;
 }
 
-.signup__button a i{
+.signup__button a i {
     margin-right: 8px;
 }
 
-.signUp__inner:hover{
+.signUp__inner:hover {
     background: #CABB78;
     transition: 0.3s;
     -webkit-transition: 0.3s;
@@ -556,15 +556,15 @@ ul, li{
     -o-transition: 0.3s;
 }
 
-.signUp__inner:hover .sigup_text h2{
+.signUp__inner:hover .sigup_text h2 {
     color: #162C53;
 }
 
-.signUp__inner:hover .sigup_text p{
+.signUp__inner:hover .sigup_text p {
     color: #162C53;
 }
 
-.signUp__inner:hover .signup__button a{
+.signUp__inner:hover .signup__button a {
     background: #fff;
     color: #162C53;
 }
@@ -590,7 +590,7 @@ ul, li{
     padding-bottom: 28px;
 }
 
-.vedio__itemsSlider{
+.vedio__itemsSlider {
     display: flex;
     justify-content: center;
 }
@@ -664,15 +664,14 @@ ul, li{
     -o-border-radius: 100px;
 }
 
-.subscribe__form .subscribe__link  , .subscribe__form .subscribe__link .subscribe__button{
+.subscribe__form .subscribe__link  , .subscribe__form .subscribe__link .subscribe__button {
     color: #8C8C9E;
     font-size: 15px;
     font-weight: 400;
     font-family: 'Inter', sans-serif;
- 
 }
 
-.subscribe__form .subscribe__button{
+.subscribe__form .subscribe__button {
     color: #162C53;
     text-transform: capitalize;
     background: #CABB78;
@@ -685,6 +684,115 @@ ul, li{
 }
 /*======== subscribe end =========*/
 /*======== footer starts =========*/
+
+.footer {
+    background: url('/images/footerbg.png') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    padding: 120px 0;
+}
+/* .footer::before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(22, 44, 83, 0.92);
+    z-index: 1;
+} */
+
+.footer__contents {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__items {
+    width: 18%;
+}
+
+.footer__items:nth-child(1) {
+    width: 25%;
+}
+
+.footer__items:last-child {
+    width: 20%;
+}
+
+.footer__header {
+    color: #fff ;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 83.2px;
+    font-family: 'Philosopher', sans-serif;
+    padding-bottom: 15px;
+}
+
+.footer__text--font {
+    color: rgba(255, 255, 255, 0.761);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+}
+
+.footer__items ul li {
+    padding-bottom: 10px;
+}
+
+.footer__items ul li a i {
+    color: #CABB78;
+    font-size: 14px;
+    padding-right: 10px;
+}
+
+.footer__items .footer__iconItems {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__items .footer__iconItems .footer__icon {
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background:rgba(255, 255, 255, 0.239);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.footer__items .footer__iconItems .footer__icon:hover {
+    background: #CABB78;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+}
+
 /*======== footer end =========*/
 /*======== copyrights starts =========*/
+.copyrights{
+    background: #CABB78;
+}
+
+.copyright__contents {
+    display: flex;
+    justify-content: space-between;
+    padding: 23px 0;
+}
+
+.copyright__items .footer__text--font{
+    color: #162C53;
+}
+
+.copyright__bottom {
+    background: #162C53;
+    padding: 23px 0;
+}
 /*======== copyrights end =========*/
