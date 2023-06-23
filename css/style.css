@@ -664,7 +664,11 @@ ul, li {
     -o-border-radius: 100px;
 }
 
-.subscribe__form .subscribe__link  , .subscribe__form .subscribe__link .subscribe__button {
+.subscribe__link {
+    border: none;
+}
+
+.subscribe__link  , .subscribe__button {
     color: #8C8C9E;
     font-size: 15px;
     font-weight: 400;
@@ -694,16 +698,6 @@ ul, li {
     width: 100%;
     padding: 120px 0;
 }
-/* .footer::before{
-    position: absolute;
-    content: '';
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(22, 44, 83, 0.92);
-    z-index: 1;
-} */
 
 .footer__contents {
     display: flex;
@@ -752,7 +746,6 @@ ul, li {
     display: flex;
     justify-content: space-between;
 }
-
 .footer__items .footer__iconItems .footer__icon {
     color: #fff;
     width: 40px;
@@ -796,3 +789,151 @@ ul, li {
     padding: 23px 0;
 }
 /*======== copyrights end =========*/
+
+
+/*====++++++++++ job page started +++++++++========*/
+
+/* ===========job banner start===========  */
+.job__banner {
+    background: url('../images/jobBannerbg.png') no-repeat center ;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    padding: 100px 0 113px 0;
+}
+.job__banner_header {
+    color: #fff;
+    font-size: 56px;
+    font-weight: 700;
+    font-family: 'Philosopher', sans-serif;
+}
+.job__banner_paragraph ,.job__banner_link{
+    color: rgba(255, 255, 255, 0.815);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 140%;
+    font-family: 'Inter', sans-serif;
+   
+}
+.job__banner_paragraph--width {
+    width: 633px;
+    padding-top: 20px;
+}
+/* ===========job banner end===========  */
+/* ===========card start===========  */
+.card {
+    padding: 100px 0;
+}
+.card__contents {
+    display: flex;
+    justify-content: space-between;
+    padding: 36px 64px 36px 36px;
+    margin-bottom: 28px;
+    border: 1px solid #E1E1E1;
+    border-radius: 24px;
+}
+.card__img {
+    padding: 96px 54px 96px 53px;
+    background: #CABB78;
+    border-radius: 24px;
+}
+.card__img-spacing {
+    padding: 72px 73px 72px 71px ;
+    background: #162C53;
+}
+.card__logo-bg {
+    background: #162C53;
+}
+.card__items {
+   width: 80%;
+   padding-left: 42px;
+}
+.card__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card__time {
+    color: #162C53;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    padding: 9px 24px;
+    background: #F2F2F2;
+}
+.card__header {
+    color: #162C53;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Philosopher', sans-serif;
+}
+.card__date {
+    color: #162C53;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif; 
+}
+.card__text {
+    color: #8C92A4;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif; 
+}
+.card__payment {
+    font-size: 28px;
+}
+.card__payment--span {
+    color: #8C92A4;
+}
+.card__link {
+    text-decoration: underline;
+}
+.cardButton__job {
+    color: #162C53;
+    background: #F5F5F5;
+    padding: 9px 24px;
+    border-radius:100px;
+}
+.cardButton__apply {
+    color: #CABB78;
+    background: #162C53;
+    padding: 9px 24px;
+    border-radius:100px;
+}
+.card__spacing {
+    padding: 16px 0 46px 0;
+}
+.card__spacing-heading {
+    padding-top: 16px;
+}
+.cart__button-spacing {
+    margin-right: 12px;
+}
+.carbutton__apply--bg {
+    background: #CABB78;
+    color: #162C53;
+}
+.card__slider--flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card_counts{
+    padding: 18px 24px;
+    background: #F2F2F2;
+    border-radius: 100px;
+    margin-left: 17px;
+}
+.card__arrows {
+    display: flex;
+}
+.card__arrow--sizing {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 50%;
+    background: #F5F5F5;
+    margin-left: 12px;
+}
+/* ===========card end===========  */
