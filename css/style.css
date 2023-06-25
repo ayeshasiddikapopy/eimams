@@ -103,7 +103,7 @@ ul, li {
 }
 
 .banner_background {
-    background-image: url('/images/BG.png');
+    background-image: url('../images/BG.png');
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
