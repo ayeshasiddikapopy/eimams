@@ -170,10 +170,6 @@ ul, li {
     padding: 18px 24px;
     margin-right: 16px;
     border-radius: 100px;
-    -webkit-border-radius: 100px;
-    -moz-border-radius: 100px;
-    -ms-border-radius: 100px;
-    -o-border-radius: 100px;
 }
 .banner_signup:hover {
     background: #CABB78;
@@ -901,9 +897,11 @@ ul, li {
 .job__banner {
     background: url('../images/jobBannerbg.png') no-repeat center ;
     background-size: cover;
-    height: 100%;
     width: 100%;
     padding: 100px 0 113px 0;
+}
+.job__banner__contents {
+    width: 633px;
 }
 .job__banner_header {
     color: #fff;
@@ -920,9 +918,9 @@ ul, li {
    
 }
 .job__banner_paragraph--width {
-    width: 633px;
     padding-top: 20px;
 }
+
 /* ===========job banner end===========  */
 /* ===========card start===========  */
 .card {
@@ -940,6 +938,11 @@ ul, li {
     padding: 96px 54px 96px 53px;
     background: #CABB78;
     border-radius: 24px;
+    width: 240px;
+    height: 240px;
+}
+.card__img img{
+    width: 100%;
 }
 .card__img-spacing {
     padding: 72px 73px 72px 71px ;
@@ -948,80 +951,83 @@ ul, li {
 .card__logo-bg {
     background: #162C53;
 }
-.card__items {
-   width: 80%;
-   padding-left: 42px;
+.card__item {
+    width:60%;
+    padding-left: 2.625rem;
 }
-.card__inner {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.card__ItemsButton{
+     width: 40%;
+     text-align: end;
+     padding-top: 4rem;
+
 }
-.card__time {
+.card__Fulltime {
     color: #162C53;
     font-size: 16px;
     font-weight: 500;
     font-family: 'Inter', sans-serif;
     padding: 9px 24px;
     background: #F2F2F2;
+    border-radius: 8px ;
 }
 .card__header {
     color: #162C53;
     font-size: 36px;
     font-weight: 700;
     font-family: 'Philosopher', sans-serif;
-}
-.card__date {
-    color: #162C53;
-    font-size: 20px;
-    font-weight: 500;
-    font-family: 'Inter', sans-serif; 
+    padding: 16px 0 10px 0;
+    line-height:46px; 
 }
 .card__text {
     color: #8C92A4;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
-    font-family: 'Inter', sans-serif; 
-}
-.card__payment {
-    font-size: 28px;
-}
-.card__payment--span {
-    color: #8C92A4;
+    font-family: 'Inter', sans-serif;
 }
 .card__link {
     text-decoration: underline;
+    padding-top: 58px;
 }
-.cardButton__job {
+.card__date , .card_job {
+    color: #8C92A4;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif; 
+}
+.card__payment {
     color: #162C53;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'Philosopher', sans-serif;
+    padding: 16px 0 46px 0;
+}
+.card__payment span {
+    color: #8C8C9E;
+}
+.cardButton__job , .cardButton__apply{
+    color: #162C53;
+    font-size: 16px;
+    font-weight: 500px;
+    font-family: 'Inter', sans-serif;
     background: #F5F5F5;
     padding: 9px 24px;
+    margin-right: 12px;
     border-radius:100px;
 }
 .cardButton__apply {
     color: #CABB78;
     background: #162C53;
-    padding: 9px 24px;
-    border-radius:100px;
-}
-.card__spacing {
-    padding: 16px 0 46px 0;
-}
-.card__spacing-heading {
-    padding-top: 16px;
-}
-.cart__button-spacing {
-    margin-right: 12px;
 }
 .carbutton__apply--bg {
     background: #CABB78;
     color: #162C53;
 }
-.card__slider--flex{
+.card__slider--flex , .card__pages{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .card_counts{
     padding: 18px 24px;
     background: #F2F2F2;

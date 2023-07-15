@@ -1,0 +1,92 @@
+
+@media (min-width: 320px) and (max-width: 768px) { 
+    /* ====banner responsive starts here=== */
+    .job__banner {
+        padding: 80px 10px;
+        overflow-x: hidden !important;
+        width: 100%;
+    }
+    .job__banner__contents {
+        width: 300px;
+        text-align: center;
+    }
+    .job__banner_header {
+        font-size: 30px;
+    }
+    .job__banner_paragraph ,.job__banner_link{
+        font-size: 16px;
+    }
+    /* ====banner responsive ends here=== */
+    /* ====card responsive starts here=== */
+    .card {
+        /* overflow-x: hidden; */
+        padding: 50px 0;
+    }
+    .card__contents{
+        flex-direction: column;
+        padding: 0; 
+        margin: 10px ;
+        /* text-align: center; */
+    }
+    .card__img{
+        margin: 10px;
+        width: 300px;
+    }
+    .card__item {
+        width: 25%;
+        padding: 10px ;
+        text-align: center;
+    }
+    .card__header {
+        font-size: 20px;
+        padding: 10px ;
+       
+    }
+    .card__text {
+        font-size: 16px;
+    }
+    .card__link {
+        padding: 10px 0;
+    }
+    .card__ItemsButton {
+        width:25%;
+        text-align: center;
+        padding: 10px;
+    }
+    .card__date {
+        font-size: 16px;
+    }
+    .card__payment {
+        font-size: 18px;
+        padding: 10px 0;
+    }
+    .cardButton__job , .cardButton__apply {
+        font-size: 12px; 
+    }
+
+    .card__slider--flex {
+        display: inline-block;
+    }
+    .card_counts {
+        padding: 9px 12px;
+    }
+    .card_job {
+        font-size: 16px;
+    }
+    .card__arrows {
+        padding: 10px 0;
+        justify-content: center;
+    }
+    .card__arrow--sizing {
+        width: 30px ;
+        height: 30px;
+        line-height: 30px;
+        font-size: 16px;
+    }
+    .card__slider--flex {
+        width: 300px;
+        margin: 10px;
+    }
+    /* ====card responsive ends here=== */
+}
+
