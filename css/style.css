@@ -33,6 +33,23 @@ ul, li {
     font-family: 'Philosopher', sans-serif;
 }
 
+/* icon  */
+.feather-16 {
+    width: 16px;
+    height: 16px;
+  }
+  
+  .feather-24 {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .feather-32 {
+    width: 32px;
+    height: 32px;
+  }
+  
+
 /*======== navbar starts =========*/
 .navbar {
     width: 100%;
@@ -45,7 +62,7 @@ ul, li {
 .nav__items {
     display: flex;
     align-items: center;
-    padding: 30px 0 26px 0;
+    padding: 10px 0 ;
 }
 
 .nav__innerItems {
@@ -109,20 +126,54 @@ ul, li {
 /* dropdown */
 .nav__dropdown {
     position: relative;
-
 }
 .dropdown__menu {
     position: absolute;
     top: 30px;
     left: 0;
-    background: #fff;
-    visibility: hidden;   
+    padding: 24px;
+    background: #E1E1E1;
+    opacity: 0;
+ 
 }
+
+.nav__dropdown:hover .dropdown__menu {
+    opacity: 1;
+    transition: 0.4s;
+}
+
+.dropdown__menu li a {
+    color: #162C53;
+    font-size: 16px;
+}
+
 .dropdown__menu li {
-    background-color: #fff;
-    border: 1px solid #000;
-    padding:9px 24px;
+    padding:18px 40px;
+    text-transform: capitalize;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+    text-align: center;
+    /* border-radius: 10px; */
 }
+
+.dropdown__menu li::after {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    height: 0;
+    width: 100%;
+    background: rgba(202, 187, 120, 0.23); 
+    transition: .5s;
+    z-index: -1;
+}
+.dropdown__menu li:hover::after {
+    height: 160%;
+  }
+  .dropdown__menu li:hover a {
+    transition: .2s;
+  }
 .nav__dropdown:hover .dropdown__menu li{
     visibility: visible;
     transition: 0.3s;
@@ -236,25 +287,34 @@ ul, li {
 }
 
 .searcing__innercontents {
-    display: flex;
-    align-items: center;
-    flex-wrap: nowrap;
-    justify-content: space-between;
     padding: 18px 24px;
-    margin:16px 16px 16px 0;
+    margin: 16px 0;
     background: #fff;
     border-radius: 100px;
     width: 235px;
-    /* width depends how i needed, we can use paddings for different items but for time saving we are using width */
-}
-
-.searcing__innercontents:nth-child(1) {
-    margin-left: 0px;
+    position: relative;
+    border: 1px solid #e1e1e1;
 }
 
 .searcing__innertexts {
     display: flex;
+    align-items: center;
     justify-content: space-between;
+}
+
+.searcing__innertexts select {
+    padding: 0 5px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: #162C53;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+
 }
 
 .searcing__innertexts i {
@@ -263,35 +323,27 @@ ul, li {
 }
 
 .searcing__button_Link {
+    color: #162C53;
     font-size: 18px;
     font-weight: 500; 
     font-family: 'Inter', sans-serif;
     text-transform: capitalize;
     padding: 18px 90px;
-    margin:16px 16px 16px 0;
-    color: #CABB78;
-    background: #162C53;
+    margin:16px 0;
+    background: #fff;
     border-radius: 100px;
 }
+.searching__inputs input{
+    border: none;
+}
 
-/* .searcing__button_Link:hover {
+.searcing__button_Link:hover {
     color: #CABB78;
     background: #162C53;
     transition: 0.4s; 
-} */
+}
 
 /* dropdown */
-.searcing__innercontents {
-  position: relative;
-}
-
-.search__dropdown {
-    color: #162C53;
-    font-size: 16px;
-    font-weight: 400;
-    font-family: 'Inter', sans-serif;
-    border: none;
-}
 
 /*======== searcing end =========*/
 /* ==========scholer start here======== */
@@ -1046,4 +1098,55 @@ ul, li {
     background: #F5F5F5;
     margin-left: 12px;
 }
+
+/* job description-->>  */
+.job__details {
+    background: #F5F5F5;
+    padding: 2.25rem;
+    border-radius: 24px;
+}
+.jobDetails__subheader {
+    color: #162C53;
+    font-size: 2.25rem;
+    font-weight: 700;
+    font-family: 'Philosopher', sans-serif;
+    padding-bottom: 1.5rem ;
+}
+.details__innerItems {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 0;
+}
+.details__innerItems p, .company__inner p, .company__inner span , .company__inner a{
+    color: #162C53;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif; 
+}
+.company__details ,.acomodation__details {
+    padding: 2rem 0 ;
+}
+.company__innerItems {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 0 ;
+}
+.company__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20%;
+}
+
+.company__inner:nth-child(2) {
+    width: 80%;
+    padding: 0 1.25rem;
+}
+
 /* ===========card end===========  */
+
+/* searc starts  */
+
+
+  
+
